@@ -60,31 +60,7 @@ python app.py
 Open **http://localhost:5000**
 
 ---
-
-## Deploy to Render (free tier)
-
-### 1. Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "tubenotes"
-git remote add origin https://github.com/YOUR_USERNAME/tubenotes.git
-git push -u origin main
-```
-
-### 2. Deploy on Render
-
-1. Go to https://render.com → **New** → **Web Service**
-2. Connect your GitHub repo
-3. Render reads `render.yaml` automatically
-4. Go to **Environment** → add:
-   ```
-   GROQ_API_KEY = gsk_xxxxxxxxxxxx
-   ```
-5. Click **Deploy**
-
-Your app is live! 🎉
+# not able to push on render because of cross unverified request
 
 ---
 
